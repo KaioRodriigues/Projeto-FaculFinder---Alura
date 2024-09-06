@@ -63,6 +63,3 @@ O texto original foi formatado em Markdown, utilizando as seguintes convenções
 **Como utilizar este arquivo `.md`:**
 * **Visualização:** Você pode visualizar este arquivo diretamente em um navegador compatível com Markdown ou utilizar um visualizador de Markdown como o GitHub, GitLab ou Visual Studio Code.
 * **Edição:** Você pode editar este arquivo utilizando qualquer editor de texto, como o Visual Studio Code, Sublime Text ou Atom.
-
-**Em resumo:**
-O texto original foi reescrito em Markdown para facilitar a leitura, a edição e o compartilhamento. O formato Markdown torna o texto mais organizado e profissional, além de ser uma excelente opção para documentar projetos e compartilhar informações.
