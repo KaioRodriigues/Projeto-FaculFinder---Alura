@@ -3,8 +3,8 @@ function busca() {
     let resultado = "";
     let campoPesquisa = document.getElementById("campo-pesquisa").value.trim().toLowerCase();
     if (!campoPesquisa) {
-        section.innerHTML = "<p>Nenhuma Faculdade foi encontrada!.</p>"
-        return 
+        section.innerHTML = "<p>Nenhuma Faculdade foi encontrada!.</p>";
+        return;
     }
     for (let dado of dados) {
         if (
@@ -24,6 +24,5 @@ function busca() {
         `;
         }
     }
-
     section.innerHTML = resultado;
 }
