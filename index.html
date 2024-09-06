@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaculFinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="logo.png" alt="Logo FaculFinder" class="logo">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome da Faculdade" 
+            id="campo-pesquisa">
+            <button onclick="busca()" class="glow-on-hover" type="button">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - FaculFinder. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: kaiorodriiguesb@gmail.com</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
